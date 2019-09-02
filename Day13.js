@@ -1,0 +1,13 @@
+document.writeln('your name="Mohamed"');
+var testwords = 'Muna, web developer \n';
+document.writeln(testwords);
+document.writeln(testwords.length + '----');
+document.writeln(testwords.charAt(length - 1));
+document.writeln(testwords.substring(1, 4));
+document.writeln(testwords.slice(1, 4));
+document.writeln(testwords.charAt(0));
+document.writeln(testwords.indexOf('M'));
+document.writeln(testwords.lastIndexOf('o'));
+document.writeln(testwords.split(', '));
+document.writeln(testwords.replace('d', 'D'));
+document.writeln(testwords.toUpperCase());
