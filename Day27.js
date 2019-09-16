@@ -1,7 +1,7 @@
 function counter(a, b) {
   for (var count = 0; count < 6; count++) {
     if (count == a) {
-      document.write(count + 'A<br>'); // 5 حتى
+      document.write(count + 'A<br>'); 
     } else if (count == b) {
       document.write(count + 'B<br>');
     }
