@@ -1,6 +1,6 @@
 var nums = [1, 2, 3];
-delete num[1];
-var n = numbers.length;
+delete nums[1];
+var n = nums.length;
 
 var names = ['Omar', 'Talal', 'Ahmed', 'Saad', 'Fahad'];
 names.length = 3;
