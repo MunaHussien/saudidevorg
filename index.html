@@ -8,8 +8,22 @@
       crossorigin="anonymous"
     />
 
-    <title>Day 38</title>
+    <title>Day 69</title>
   </head>
+
+  <style>
+    /* CSS styles for this page */
+    .reveal * {
+      display: none;
+    }
+
+    /* Children of class="reveal" are not shown */
+    .reveal *.handle {
+      display: block;
+    }
+
+    /* Except for the class="handle" child */
+  </style>
 
   <body>
     <div class="container">
@@ -20,6 +34,13 @@
             <p>My first paragraph.</p>
             <h3 id="demo1"></h3>
             <h3 id="demo2"></h3>
+            <div class="reveal">
+              <h1 class="handle">Click Here to Reveal Hidden Text</h1>
+              <p>
+                This paragraph is hidden. It appears when you click on the
+                title.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -29,6 +50,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="./Day38.js"></script>
+    <script src="./Day69.js"></script>
   </body>
 </html>
